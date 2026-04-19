@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apurwa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" onclick="navigateTo('home')">Home</a></li>
+                <li><a href="#about" class="nav-link" onclick="navigateTo('about')">About</a></li>
+                <li><a href="#education" class="nav-link" onclick="navigateTo('education')">Education</a></li>
+                <li><a href="#projects" class="nav-link" onclick="navigateTo('projects')">Projects</a></li>
+                <li><a href="#contact" class="nav-link" onclick="navigateTo('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section active">
+        <div class="home-content">
+            <div class="profile-circle">
+                <img src="job photo.jpeg" alt="Profile" class="profile-img">
+            </div>
+            <h1 class="greeting">Hello, I'm <span class="highlight">Apurwa</span></h1>
+            <p class="subtitle">2nd Year B.E. Student | Web Developer | Tech Enthusiast</p>
+            <p class="description">Welcome to my portfolio! I'm passionate about creating beautiful and functional web experiences.</p>
+            <button class="cta-button" onclick="navigateTo('about')">Explore My Work</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Apurwa, a 2nd year B.E. (Bachelor of Engineering) student with a keen interest in web development and technology. I have a strong foundation in programming concepts and am constantly learning new technologies to enhance my skills.</p>
+                
+                    <p>My passion lies in creating responsive, user-friendly web applications that solve real-world problems. I believe in clean code, creativity, and continuous improvement. I'm always eager to take on new challenges and expand my knowledge in the tech industry.</p>
+                    
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <span class="skill-name">HTML & CSS</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">SQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">C language </span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">Team Work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="section-container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-details">
+                        <h3>Bachelor of Engineering (B.E.)</h3>
+                        <p class="institution">SPPU University </p>
+                        <p class="year">2nd Year | Expected Graduation: 2028</p>
+                        <p class="description">Currently pursuing my B.E. degree with focus on web development, database management, and software engineering principles.</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">📚</div>
+                    <div class="education-details">
+                        <h3>Senior Secondary (12th)</h3>
+                        <p class="institution">Notre Dame Academy, Patliputra, Patna</p>
+                        <p class="description">Completed senior secondary education with strong academic performance in science(PCM) with 74.4% in CBSE. </p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">✏️</div>
+                    <div class="education-details">
+                        <h3>Secondary (10th)</h3>
+                        <p class="institution">Holy Mission Senior Secondary School, Patna</p>
+                        <p class="description">Completed secondary education with 90.2% with strong foundation in academics with interest in technology and innovation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-section">
+                <h3>Relevant Courses</h3>
+                <div class="courses-grid">
+                    <div class="course-item">Frontend Development</div>
+                    <div class="course-item">Data Science</div>
+                    <div class="course-item">Power BI</div>
+                    <div class="course-item">SQL</div>
+                    <div class="course-item">AI</div>
+                    <div class="course-item">Software Engineer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript</p>
+                    <p class="project-description">A responsive personal portfolio website showcasing my skills, education, and projects with smooth navigation and modern design.</p>
+                    <div class="project-tags">
+                        <span class="tag">Responsive</span>
+                        <span class="tag">Modern</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🛒</div>
+                    <h3>Library Management System</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript, SQL, Java</p>
+                    <p class="project-description">Built a real-world web platform which helps students as well as librarian with the online book management system</p>
+                    <div class="project-tags">
+                        <span class="tag">Functional</span>
+                        <span class="tag">Useful</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📝</div>
+                    <h3>Responsive Frontend Model</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript</p>
+                    <p class="project-description">Developed responsive frontend model for various websites such as e-commerce, teaching platform.</p>
+                    <div class="project-tags">
+                        <span class="tag">Interactive</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                </div>
+
+                
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Dashboard UI Design</h3>
+                    <p class="project-tech">HTML, CSS</p>
+                    <p class="project-description">A professional dashboard design with analytics visualization, charts, and data presentation components for business analytics.</p>
+                    <div class="project-tags">
+                        <span class="tag">Dashboard</span>
+                        <span class="tag">Data</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Debugging Model</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript</p>
+                    <p class="project-description">Applied debugging and problem-solving to enhance functionality.</p>
+                    <div class="project-tags">
+                        <span class="tag">API</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'd love to hear from you! Feel free to reach out for any inquiries or collaboration opportunities.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:apurwaa05@gmail.com">apurwaa05@gmail.com</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+919241148728">+91 9241148728</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Pune,Maharashtra,India</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <h3>Social Links</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/apurwa-5752a2287?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Apurwa. All rights reserved.</p>
+        <p>Created with passion and dedication to web development</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
